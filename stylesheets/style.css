@@ -1,0 +1,22 @@
+/*Makoa.mx*/
+*{margin:0;padding:0;font-family:Tahoma, sans-serif;}
+a{text-decoration:none; color:inherit;}
+body{background:url(../images/bodyBg.png) bottom repeat-x #fcfcfc;}
+#header{background:url(../images/headerBg.png) repeat-x #333; height:100px;}
+#wrapper{width:800px; margin:0 auto; margin-top:12px; margin-bottom:12px;}
+	#userInfo{text-align:right; margin-bottom:12px; margin-top:10px;}
+		#userInfo a.logout{color:#ff5252;}
+	#appInfo{padding:12px; background:#e9f9e3; font-size:16px; line-height:24px; text-align:justify; margin-bottom:24px;}
+	#actionButtons{height:100px; margin-bottom:20px;  text-align:center;}
+		#actionButtons a img{margin-left:50px;}
+	#makoaFeed{}
+		#makoaFeed h2{color:#111; font-weight:lighter; font-size:24px; margin-bottom:12px;}
+		.makoaPost{padding-top:2px; padding-left:62px; height:52px;}
+			.makoaPost img{margin-left:-60px; height:48px; width:48px; float:left;}
+			.makoaPost h3{font-size:24px; color:#333; font-weight:lighter;}
+				.makoaPost h3 .offer{color:#2d879a;}
+				.makoaPost h3 .need{color:#30aa3b;}
+			.makoaPost .twttrUser{font-size:12px; color:#555;}
+		.makoaPost:hover{background:#f0f0f0;}
+		#makoaFeed button{width:800px; text-align:center; margin-top:20px; padding:10px;		}
+#footer{font-size:12px; color:#555; border-top:1px solid #999; padding-top:12px; text-align:center; line-height:20px;}
